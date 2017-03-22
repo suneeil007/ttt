@@ -1,0 +1,1 @@
+<?php echo custom_message('success_message'); ?>
