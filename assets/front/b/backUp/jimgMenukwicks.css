@@ -1,0 +1,59 @@
+
+.jimgMenu {
+	position:relative;
+	padding: 0px;
+	width:444px;
+	height:178px;
+	overflow: hidden;
+}
+
+.jimgMenu ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	height: 178px;
+	position: relative;
+	}
+	
+.jimgMenu ul li {
+	width: 111px;
+	float: left;
+	display: block;
+	overflow: hidden;
+}
+
+.jimgMenu ul li a {
+	text-indent: -1000px;
+	background:#fff repeat scroll 0%;
+	border-right: 2px solid #fff;
+	cursor:pointer;
+	display:block;
+	overflow: hidden;
+	height: 178px;
+}
+
+.jimgMenu ul li#nepal a {
+	background: url(../images/destination/nepal.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu ul li#india a {
+	background: url(../images/destination/india.jpg) repeat scroll 0%;
+
+}
+
+.jimgMenu ul li#tibet a {
+	background: url(../images/destination/tibet.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu ul li#bhutan a {
+	background: url(../images/destination/bhutan.jpg) repeat scroll 0%;
+
+}
+
+
+.clear {
+	clear: both;
+}

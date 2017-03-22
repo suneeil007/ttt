@@ -1,0 +1,68 @@
+.pagination{
+    float: left;
+    font:9px Tahoma, Verdana, Arial, "Trebuchet MS", Helvetica, sans-serif;
+    color:#3d3d3d;
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:20px;
+    width:100%;
+}
+.pagination a, .pagination strong{
+    list-style-type: none;
+    display: inline;
+    padding: 5px 8px;
+    text-decoration: none; 
+    background-color: inherit;
+    color: gray;
+    font-weight: bold;
+}
+.pagination strong{
+	color: #ffffff;
+	/*    background-color:#000; */
+	
+	background-image: -ms-linear-gradient(right, #237FB6 0%, #00A3EF 100%);
+	
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(right, #237FB6 0%, #00A3EF 100%);
+	
+	/* Opera */ 
+	background-image: -o-linear-gradient(right, #237FB6 0%, #00A3EF 100%);
+	
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, right top, left top, color-stop(0, #237FB6), color-stop(1, #00A3EF));
+	
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(right, #237FB6 0%, #00A3EF 100%);
+	
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to left, #237FB6 0%, #00A3EF 100%);
+	
+	background-position: top center;
+	background-repeat: no-repeat;
+    text-decoration: none; 
+}
+.pagination a:hover{
+	color: #ffffff;
+	/*    background-color:#000; */
+	background-image: -ms-linear-gradient(right, #237FB6 0%, #00A3EF 100%);
+	
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(right, #237FB6 0%, #00A3EF 100%);
+	
+	/* Opera */ 
+	background-image: -o-linear-gradient(right, #237FB6 0%, #00A3EF 100%);
+	
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, right top, left top, color-stop(0, #237FB6), color-stop(1, #00A3EF));
+	
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(right, #237FB6 0%, #00A3EF 100%);
+	
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to left, #237FB6 0%, #00A3EF 100%);	
+	
+    background-position: top center;
+    background-repeat: no-repeat;
+    text-decoration: none; 
+}

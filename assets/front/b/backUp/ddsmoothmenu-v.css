@@ -1,0 +1,63 @@
+.ddsmoothmenu-v ul{
+	list-style: none;
+}
+ 
+.ddsmoothmenu-v ul li{
+	position: relative;
+	border-bottom: 1px solid #dbdbdb;
+	text-decoration:none;
+	font-size: 12px;
+	line-height: 17px;
+	padding: 8px 0;
+}
+
+/* Top level menu links style */
+.ddsmoothmenu-v ul li a{
+	background: url(../images/bullimg.jpg) no-repeat 1px 6px;
+	text-decoration:none;
+	color: #999;
+	padding: 0 0 0 25px;
+}
+
+.ddsmoothmenu-v ul li a:hover{
+	background:  url(../images/bullhover.jpg) no-repeat 5px 6px;
+	color: #333;
+	padding: 0 0 0 30px;
+}
+
+/*Sub level menu items */
+.ddsmoothmenu-v ul li ul{
+	position: absolute;
+	top:-1px !important;
+	visibility: hidden;
+    border:1px solid #E1E1E1;
+	/*background: red repeat;*/
+   border-radius:3px;
+   left:135px !important;  
+
+}
+
+.ddsmoothmenu-v ul li li{
+	background: url(../images/bullimg.jpg) no-repeat 5px #ffffff;
+	text-align:left;
+	bottom:0;	
+	min-width:130px;
+   padding-left:15px; 
+}
+
+.ddsmoothmenu-v ul li li a{
+	color:#ccc;
+	background:none;
+	padding:0 8px;
+}
+
+.ddsmoothmenu-v ul li li a:hover{
+	background:none;
+	color:#666;
+	padding:0 8px;
+}
+
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu-v ul li { float: left; height: 1%; }
+* html .ddsmoothmenu-v ul li a { height: 1%; }
+/* End */

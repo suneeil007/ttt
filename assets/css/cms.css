@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main-content{
+	margin-left:20px;
+	float:left;
+	border:1px solid gray;
+	min-height:500px;
+	width:1145px;
+}
+
+
+div#menu { margin:20px auto; }
+a {
+ color: #003399;
+ background-color: transparent;
+ font-weight: normal;
+}
+h1 {
+ color: #444;
+ background-color: transparent;
+ border-bottom: 1px solid #D0D0D0;
+ font-size: 16px;
+ font-weight: bold;
+ margin: 24px 0 2px 0;
+ padding: 5px 0 6px 0;
+}
+code {
+ font-family: Monaco, Verdana, Sans-serif;
+ font-size: 12px;
+ background-color: #f9f9f9;
+ border: 1px solid #D0D0D0;
+ color: #002166;
+ display: block;
+ margin: 14px 0 14px 0;
+ padding: 12px 10px 12px 10px;
+}
+
+
+.vert_nav{
+margin-top:70px;
+float:left;
+}
+
+/*
+.divider{
+	color:maroon;
+	font-size:12px;
+}
+
+.breadcrumb{
+	padding:0;
+	margin-left:10px;
+	list-style:none;
+}
+
+.breadcrumb li{
+	float:left;
+}
+
+.breadcrumb li a{
+	text-decoration:none;
+	color:maroon;
+	font-size:12px;
+}
+
+.breadcrumb li a:hover {
+	text-decoration:underline;
+	color:gray;
+}
+
+.active{
+	color:gray;
+	font-size:12px;
+	padding:0;
+	margin-top:2px;
+}
+*/
+#feedback{
+	margin:40px 0 45px 50px;
+}
+
+#feedback p input, #comment{
+		background:white;
+}
+
+#testimonials{
+	
+}
+
+.loading{
+	float:left; 
+	background:url('../images/loading.gif') no-repeat ; 
+	height:32px; 
+	width:32px; 
+	display:none;
+	margin-left:20px;
+	margin-top:10px;
+}
+
+#update_status{
+	color:black;
+	text-decoration:none;
+}
+
+#update_status:hover{
+	color:gray;
+	text-decoration:none;
+}
+
+#test_disp{
+
+}
+
+#head{
+	border:1px solid red;
+background-image: -ms-linear-gradient(right, #237FB6 0%, #00A3EF 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(right, #237FB6 0%, #00A3EF 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(right, #237FB6 0%, #00A3EF 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, right top, left top, color-stop(0, #237FB6), color-stop(1, #00A3EF));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(right, #237FB6 0%, #00A3EF 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to left, #237FB6 0%, #00A3EF 100%);
+}
+
+#tble-row-even{
+	background-color:#F6F9FB;
+}
+
+#tble-row-odd{
+	background-color:#fff;
+}
+
+
+#tble-row-even:hover , #tble-row-odd:hover{
+	background-color:#E6EDF3;
+}
+
+
+.list-content{
+	border:1px solid #ccc;
+	float:left; 
+	margin-left:5px;
+	 background-color:white;
+	 padding:5px;
+	 height:100px;
+	 width:300px;
+}
+
+
+.widthanchornew{
+	width:95px;
+		float:left;
+}
+
+.widthanchorgroup{
+	float:left;
+	margin-left:20px;
+	width:105px;
+}
+

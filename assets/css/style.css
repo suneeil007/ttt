@@ -1,0 +1,169 @@
+body {
+	font:13px/17px "Trebuchet MS", Arial, Helvetica, sans-serif;	
+}
+.loading{
+	float:left; 
+	background:url('../images/loading.gif') no-repeat; 
+	height:32px; 
+	width:32px; 
+	display:none;
+	margin-left:20px;
+	margin-top:10px;
+	}
+
+.logo {
+	/*background:url(../images/name.jpg) no-repeat;*/
+	width:267px;
+	height:73px;
+	float:left;
+	padding:3px 0;
+}
+
+.msg-box{
+	padding:5px;
+	padding-top:0px;	
+	height:20px;
+/*	width:990px; */
+}
+
+.msg-box h3{
+	 float:left;
+	 padding:0px;
+	 margin:0;
+	 font-size:17px;
+}
+
+.custom-msg{
+	color:green;
+	float:right;
+	font-weight:bold;
+
+	font-style:italic;
+	}
+
+
+.slidediv{
+display:none;
+}
+
+.text{
+	width:20px;
+	}
+	
+.content-temp{
+	margin : 20px 150px 0 155px;
+	padding:20px;	
+/*	-moz-box-shadow:    20px 0 10px -14px #CCC , -20px 0 10px  -14px #CCC;
+	-webkit-box-shadow: 20px 0 10px -14px #CCC , -20px 0 10px  -14px #CCC;
+	box-shadow: 20px 0 10px -14px #CCC , -20px 0 10px  -14px #CCC;   
+	*/
+	box-shadow:0 0 25px 0 #E1E1E1;
+	-moz-box-shadow:0 0 25px 0 #E1E1E1;
+	-webkit-box-shadow:0 0 25px 0 #E1E1E1;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#E1E1E1,direction=135,strength=14);
+	min-height:710px;
+}	
+
+.alignleft{
+	text-align:left;
+	color:white;
+}
+
+#remNew, #remcol,#rem{
+	text-decoration:none;
+	color:red;
+}
+
+.horzline{
+	/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(right, #FFFFFF 0%, #00A3EF 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(right, #FFFFFF 0%, #00A3EF 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(right, #FFFFFF 0%, #00A3EF 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, right top, left top, color-stop(0, #FFFFFF), color-stop(1, #00A3EF));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(right, #FFFFFF 0%, #00A3EF 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to left, #FFFFFF 0%, #00A3EF 100%);
+height:2px;
+margin-bottom:15px;
+}
+
+.contactleft
+
+{
+
+	background:url(../images/contactinfo.jpg) no-repeat;
+
+	width:300px;
+
+	height:310px;
+
+	float:left;
+
+	margin:30px;
+}
+
+.file_info{
+	font-size: 9px;
+	-moz-opacity:0 ;	
+	filter:alpha(opacity: 0);	
+	opacity:.7;		
+	}
+
+.cat_pic{
+	margin-bottom:5px;
+}	
+
+.add_cat{
+	padding:3px;
+	cursor:pointer;
+	}
+	
+	
+ .element-block{
+	float:left;	 
+ }
+ 
+ .title_lbl{
+ 	float:left;	 
+	width:140px;
+ }
+ 
+ 
+ 
+.product-veriety-wrapper{
+	margin-left:140px;
+	}
+
+.product-veriety-box{
+	float:left;
+	border:1px solid #ccc;
+	padding:5px;
+	width:80px;
+	height:60px;
+	margin:1px;
+}
+
+
+.add-category-block{
+	float:left;
+	margin-right:90px;
+}
+
+.add-sub-category-block{
+	float:left;
+	margin-right:50px;
+}
+
+
+#product-types{
+	margin-left:130px;
+}

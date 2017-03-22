@@ -1,0 +1,73 @@
+.block-some{
+	float:left;
+	margin-left:30px;
+}
+
+.frm-inquiry{
+	border:1px solid #E1E1E1;
+	padding:20px 0;
+	min-height:120px;
+}
+
+.prod-label{
+	float:left;
+	margin-left:5px;
+	width:100px;
+	text-decoration:underline;
+}
+
+
+.product-wrapper{
+	width:420px;
+	float:right;
+	border:1px solid #E1E1E1;
+	padding:5px;
+}
+
+.product-title{
+	background:#E1E1E1;
+	padding:3px;
+	margin-bottom:10px;
+}
+
+
+.product-big-image{
+	float:left;
+	margin-left:20px;
+	border:1px solid #E1E1E1;
+}
+
+a img{border: 0;}
+
+input[type=text] {
+ float:right;
+ width:85%; 
+ margin-bottom:6px;
+ border:1px solid #E1E1E1;
+padding:5px;
+}
+label{width:45px; text-align:right; color:#666; line-height:20px;}
+
+
+
+form label{ float:left; color:#666; font-family:Arial, Helvetica, sans-serif; font-size:12px; padding-bottom:14px;}
+
+textarea{ width:91%; float:left; height:113px; border:1px solid #E1E1E1;}
+
+input[type=submit]{ cursor:pointer;}
+
+.floatleft{width:47%;  float:left; margin:10px 0 0 25px;}
+
+.inputStyle{ height:30px;}
+
+.inquery{width:45%; float:right; font-family:Arial, Helvetica, sans-serif;}
+
+.prod-label{font:arial; font-size:14px; text-decoration:none;  color:#666; font-weight:bold;}
+
+input[type=submit]{
+  background:#138AC6; width:100px; padding:4px 10px; border:none; font-weight:bold;
+}
+input[type=submit]:hover{ background:#069; color:#CCC;}
+
+.error{background:#F00; }
+.message{color:#fff; margin-top:3px  !important; line-height:21px  !important; font-family:Verdana, Geneva, sans-serif  !important; font-size:11px  !important; left:300px !important; top:0; }
