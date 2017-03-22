@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteCond $1 !^(uploads|assets|css|js|mediaelement|images|config\.xml|favicon\.ico|robots\.txt|index|SQLyogTunnel\.php) [NC]
+RewriteRule ^(.*)$ index.php?/$1 [L,QSA]
+
+</IfModule>
